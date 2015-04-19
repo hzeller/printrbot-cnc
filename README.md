@@ -8,6 +8,8 @@ accross the sharp edge and in general don't create too much overhang. However,
 it is important to add enough support material at the bottom for it to stand
 securely while printing.
 
+License *CC BY-SA 4.0*
+
 ![Front view][front]
 
 ![Side view][side]
