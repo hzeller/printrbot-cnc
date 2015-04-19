@@ -3,6 +3,11 @@ CNC handle for Printrbot CNC Beta 01
 
 Taking the finger-pain out of carring around cutting edge technology :)
 
+When printing, upright is probably the best way to have the most strength
+accross the sharp edge and in general don't create too much overhang. However,
+it is important to add enough support material at the bottom for it to stand
+securely while printing.
+
 ![Front view][front]
 
 ![Side view][side]
