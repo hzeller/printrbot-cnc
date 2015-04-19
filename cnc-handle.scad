@@ -1,5 +1,5 @@
 $fn=96;
-epsilon=0.02;
+
 handle_width=80;
 handle_height=30;
 metal_thick=4.8;
@@ -37,7 +37,6 @@ module handle() {
 	}
     }
 }
-
 
 // Let's have two of these, upright. Needs good support material for it to stand
 // up, but should yield the strongest handle for this task.
