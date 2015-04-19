@@ -7,8 +7,6 @@ Taking the finger-pain out of carring around cutting edge technology :)
 
 ![Side view][side]
 
-![3D view][stl-view]
-
 <a href="cnc-handle.stl"><img src="img/stl-view.png" width="300px"></a>
 
 ![Fresh from printer][printed]
