@@ -1,5 +1,7 @@
-CNC handle for Printrbot CNC Beta 01
-====================================
+Handle for Printrbot CNC Beta 01
+================================
+
+For this machine: http://printrbot.com/shop/printrbot-cnc-beta-01/
 
 Taking the finger-pain out of carring around cutting edge technology :)
 
