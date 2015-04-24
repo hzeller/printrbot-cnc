@@ -28,6 +28,13 @@ module screw() {
     translate([0,0,-30]) cylinder(r=screw_dia/2,h=30);
 }
 
+module half_sphere(r=1) {
+    difference() {
+	sphere(r=r);
+	translate([0,0,-r/2]) cube([2*r+epsilon,2*r+epsilon,r+epsilon], center=true);
+    }
+}
+
 module block(switch_left=true,switch_block_width=block_width/2-switch_block_offset,big_length=block_length/2,small_width=block_width/3) {
     hull() {
 	translate([0,-block_width/2,0]) cube([5, block_width, block_thick]);
@@ -53,13 +60,6 @@ module endstop_trigger(left_switch=true) {
     }
 }
 
-module print_flat() {
-    rotate([180,0,0]) {
-	endstop_trigger(left_switch=true);
-	translate([0,block_width+2,0]) endstop_trigger(left_switch=false);
-    }
-}
-
 // Upright might be more sturdy as we are less pronce to layer delamination
 // in the direction  of force (but screw-hole printing is a bit more
 // overhang prone).
@@ -70,22 +70,5 @@ module print_upright() {
     }
 }
 
-module test_fit(left_switch=true) {
-    difference() {
-	rotate([0,-90,0]) endstop_trigger(left_switch);
-	translate([-50,-block_width,-epsilon]) cube([100,100,block_length-8]);
-    }
-}
-
-module half_sphere(r=1) {
-    difference() {
-	sphere(r=r);
-	translate([0,0,-r/2]) cube([2*r+epsilon,2*r+epsilon,r+epsilon], center=true);
-    }
-}
-
-//endstop_trigger();
-//test_fit(left_switch=false);
-//print_flat();
 print_upright();
 
