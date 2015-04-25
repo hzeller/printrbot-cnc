@@ -12,10 +12,10 @@ screw_dia=8.3;
 screw_head_dia=14;
 screw_recess=4.5;
 
-block_length=screw_distance + screw_head_dia+5;
+block_length=screw_distance + screw_head_dia+1;
 block_thick=23;  // good to go up enough to iht
 block_width=38;   // as wide as the aluminum profile.
-block_round_radius=8;
+block_round_radius=8.1;
 
 rail_thick=3.5;    // The rail in the aluminum extrusion we're sitting in.
 rail_wide=8.0;
