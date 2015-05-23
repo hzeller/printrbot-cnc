@@ -1,7 +1,8 @@
-all: cnc-handle.stl endstop-trigger.stl
+all: cnc-handle.stl y-endstop-trigger.stl x-switch-spacer.stl
 
 cnc-handle.stl: cnc-handle.scad
-endstop-trigger.stl: endstop-trigger.scad
+y-endstop-trigger.stl: y-endstop-trigger.scad
+x-switch-spacer.stl: x-switch-spacer.scad
 
 %.stl: %.scad
 	openscad -o $@ -d $@.deps $<

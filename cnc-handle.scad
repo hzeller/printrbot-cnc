@@ -1,4 +1,6 @@
 // (CC-BY-SA) h.zeller@acm.org
+// Handle for the printrbot CNC, which helps not cutting your fingers while
+// carrying :)
 // Upright printing is the best, even if we need a little support material.
 // That way, the filament is right accross the part that needs to be strong.
 
