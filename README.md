@@ -12,26 +12,25 @@ For this machine: http://printrbot.com/shop/printrbot-cnc-beta-01/
      stationary triggers mounted on the rail.
    * [x-switch-spacer.scad](./x-switch-spacer.scad) : The default mount of the
      switches on the x-axis is too low so that they are not triggered reliably.
-     This fixes it.
+     These standoffs, mounted under th switches fixes it.
+   * [spindle-holder.scad](./spindle-holder.scad): Mount of a spindle. This helps to
+     mount a spindle in the screw mounts of the CNC; the spindle itself is held with a
+     hose clamp. Watch out: the thin fins come out pretty brittle out of typical printers.
 
-## Handle looks
+## Handle
 (the latest version in git is a bit bigger, better fitting hands)
-![Front view][handle-front]
+![Front view](./img/handle-front.jpg)
 
-![Side view][handle-side]
+![Side view](./img/handle-side.jpg)
 
 <a href="cnc-handle.stl"><img src="img/stl-view.png" width="300px"></a>
 
-![Fresh from printer][handle-printed]
+![Fresh from printer](./img/handle-printed.jpg)
 
 ## Y-endswitch mount
 
-![Open][y-open]
-![Triggered][y-triggered]
+![Open](./img/y-open.jpg)
+![Triggered](./img/y-triggered.jpg)
 
-
-[handle-printed]: ./img/handle-printed.jpg
-[handle-front]: ./img/handle-front.jpg
-[handle-side]: ./img/handle-side.jpg
-[y-open]: ./img/y-open.jpg
-[y-triggered]: ./img/y-triggered.jpg
+## Spindle Holder
+![Spindle-Holder](./img/spindle-holder.jpg)
