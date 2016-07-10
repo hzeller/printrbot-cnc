@@ -15,7 +15,8 @@ For this machine: http://printrbot.com/shop/printrbot-cnc-beta-01/
      These standoffs, mounted under th switches fixes it.
    * [spindle-holder.scad](./spindle-holder.scad): Mount of a spindle. This helps to
      mount a spindle in the screw mounts of the CNC; the spindle itself is held with a
-     hose clamp. Watch out: the thin fins come out pretty brittle out of typical printers.
+     hose clamp. The top part needs to have slots cut with a saw (printing them makes
+     stuff too fragile), see image.
 
 ## Handle
 (the latest version in git is a bit bigger, better fitting hands)
