@@ -45,7 +45,7 @@ module mounting_holes() {
 module spindle_holder() {
   difference() {
     union() {
-      rounded_corner_cube(70, 70, 5, 5);
+      rounded_corner_cube(90, 90, 5, 5);
       // Bottom part
       cylinder(r=spindle_dia/2 + wall_thickness, h=transition_start);
 
@@ -75,7 +75,7 @@ module spindle_holder() {
     }
 
     translate([0,0, transition_start - epsilon])
-      cylinder(r=spindle_dia/2+1, h=transition_height + 2*epsilon, $fn=12);
+      cylinder(r=spindle_dia/2+0.9, h=transition_height + 2*epsilon, $fn=12);
     mounting_holes();
     #spindle();
     // Only a small guide for the saw to grip
